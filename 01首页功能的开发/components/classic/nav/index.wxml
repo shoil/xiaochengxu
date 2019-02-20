@@ -1,0 +1,5 @@
+<view class="nav center">
+    <image src="{{yesLeft}}" class="radio"></image>
+    <text class="title">{{title}}</text>
+    <image src="{{yesRight}}" class="radio"></image>
+</view>

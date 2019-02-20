@@ -1,0 +1,6 @@
+<view class="m-container">
+    <image src="{{image}}" class="m-banner {{isPlay?'rotate':''}}"></image>
+    <image src="{{isPlay?play:pause}}" class="m-play" bind:tap="onMusic"></image>
+    <image src="images/music.png" class="m-icon"></image>
+    <view class="text">{{content}}</view>
+</view>

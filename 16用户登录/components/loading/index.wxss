@@ -1,0 +1,17 @@
+.loading{
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    width:750rpx;
+    border-top: 1rpx solid #eee;
+    z-index: 300;
+    height:100rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+image{
+    margin-right:5px;
+    width:32rpx;
+    height:32rpx;
+}

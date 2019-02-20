@@ -1,0 +1,8 @@
+<view class="header">
+    <v-date index="{{classic.index}}"></v-date>
+    <v-like like="{{classic.like_status}}" count="{{classic.fav_nums}}" bind:like="onLike"></v-like>
+</view>
+<v-movie image="{{classic.image}}" content="{{classic.content}}"></v-movie>
+<v-nav title="{{classic.title}}" isLatest="{{isLatest}}" isFirst="{{isFirst}}"
+bind:previous="onPrev" bind:next="onNext"
+></v-nav>

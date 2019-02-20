@@ -1,0 +1,25 @@
+.container{
+    display: inline-flex;
+    align-items: baseline;
+}
+.line{
+    width:3rpx;
+    height:50rpx;
+    background: #333;
+    margin-left:5px;
+    margin-right: 5px;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.index{
+    font-size: 50rpx;
+    font-weight: bold;
+    margin-left:3px;
+    margin-right: 3px;
+}
+.date text{
+    font-size: 23rpx;
+}

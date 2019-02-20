@@ -1,0 +1,44 @@
+<view class="header">
+    <view class="search">
+        <icon type="search" size="18" color="">
+
+        </icon>
+        <input type="text" confirm-type="search" bindconfirm="onConfirm" value="{{value}}" />
+        <icon type="clear" size="18" bind:tap="onClear"></icon>
+    </view>
+    <button bind:tap="onCancel" plain="{{true}}" class="cancel">取消</button>
+</view>
+<view class="container" wx:if="{{!isSearch}}">
+    <view class="title">
+        <view class="line"></view>
+        <text>历史搜索</text>
+    </view>
+    <view class="history-container">
+        <block wx:for="{{words}}" wx:key="{{index}}">
+            <v-tag content="{{item}}" bind:comment="onConfirm"></v-tag>
+        </block>
+    </view>
+    <view class="title">
+        <view class="line"></view>
+        <text>热门搜索</text>
+    </view>
+    <view class="history-container">
+        <block wx:for="{{hots}}" wx:key="{{index}}">
+            <v-tag content="{{item}}" bind:comment="onConfirm"></v-tag>
+        </block>
+    </view>
+</view>
+<!-- 设置搜索结果 -->
+<scroll-view class="scroll-view" scroll-x="{{false}}"
+ scroll-y="{{true}}"  
+    bindscrolltolower="onScroll" >
+    <view class="result" wx:if="{{isSearch}}" >
+        <block wx:for="{{books}}" wx:key="{{index}}">
+            <v-book book="{{item}}"></v-book>
+        </block>
+    </view> 
+</scroll-view>
+
+
+
+<view wx:if="{{isResult}}" class="space">未找到与"{{value}}"相关的内容</view>

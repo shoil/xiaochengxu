@@ -1,0 +1,27 @@
+<view class="header">
+    <view class="search">
+        <icon type="search" size="18" color="">
+            
+        </icon>
+        <input type="text" confirm-type="search"  bindconfirm="onConfirm"  />  
+    </view>
+    <button bind:tap="onCancel" plain="{{true}}" class="cancel">取消</button>
+</view>
+<view class="container">
+    <view class="title">
+        <view class="line"></view>
+        <text>历史搜索</text>
+    </view>
+    <view class="history-container">
+        <block wx:for="{{words}}" wx:key="{{index}}"> 
+            {{item}}
+        </block>
+    </view>
+    <view class="title">
+        <view class="line"></view>
+        <text>热门搜索</text>
+    </view>
+    <view class="history-container">
+
+    </view>
+</view>

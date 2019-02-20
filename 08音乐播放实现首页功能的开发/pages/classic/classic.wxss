@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    height:100rpx;
+    align-items: center;
+    padding-left:20rpx;
+    padding-right:20rpx;
+    justify-content: space-between;
+}
+.v-nav{
+    position: fixed;
+    z-index: 100;
+    bottom: 150rpx;
+    margin-left: 75rpx;
+}

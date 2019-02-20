@@ -1,0 +1,136 @@
+page{
+    height:100%;
+    background: #F5F5F5;
+}
+.header{
+    margin-top: 5px;
+    height:500rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+}
+.image{
+    width:200rpx;
+    height:300rpx;
+    margin-top: 20rpx;
+    box-shadow: 0 0 10rpx 3rpx rgb(172, 172, 172);
+}
+.title{
+    font-size: 30rpx;
+    font-weight: bold;
+    margin-top: 20rpx;
+    color:#333;
+    margin-bottom: 20rpx;
+}
+.sub-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    padding:40rpx;
+
+}
+.comment-content v-tag:first-child>view{
+    background: #FFFADD;
+}
+.comment-content v-tag:nth-child(2)>view{
+    background: #EFFAFF;
+}
+.sub-content{
+    background: #fff;
+    padding:40rpx;
+}
+.book-content text{
+    color:#666;
+}
+.publish{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.publish>view{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.summary{
+    line-height: 20px;
+    text-indent: 20rpx;
+    display: block;
+}
+.comment-input{
+    width:710rpx;
+    height:100rpx;
+    background: #fff;
+    position: fixed;
+    left:0;
+    bottom:0;
+    border-top: 1rpx solid #999;
+    display: flex;
+    align-items: center;
+    padding-left:20rpx;
+    padding-right: 20rpx;
+    justify-content: space-between;
+}
+.short{
+    width:24rpx;
+    height:24rpx;
+}
+.input{
+    width:400rpx;
+    height: 60rpx;
+    border:1rpx solid #333;
+    border-radius: 30rpx;
+    display: flex;
+    align-items: center;
+    padding-left:20px;
+}
+.input text{
+    margin-left: 5px;
+}
+.input-comment-content{
+    position: fixed;
+    z-index: 100;
+    left:0;
+    bottom: 0;
+    width:100%;
+    background: #fff;
+}
+.comment-head{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    border-bottom: 1rpx solid #eee;
+    border-top: 1rpx solid #eee;
+    height:100rpx;
+    align-items: center;
+}
+.c-input{
+    width:660rpx;
+    padding-left:20rpx;
+    height: 70rpx;
+    border:1rpx solid #333;
+    border-radius: 30rpx;
+}
+.comment-wrap{
+    height:100rpx;
+}
+.modal{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background: #333;
+    opacity: .6;
+    z-index: 99
+}
+.comment-content{
+    margin-top: 15px;
+}
+.btn{
+    border:none !important;
+    display: inline-block !important;
+    margin:0 !important;
+}

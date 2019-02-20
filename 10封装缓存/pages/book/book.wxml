@@ -1,0 +1,14 @@
+<view class="search flex-row-center">
+    <view class="search-input flex-row-center" bind:tap="onTap">
+        <icon type="search" size="18" color="#A6A6A6">
+
+        </icon>
+        <text>搜索图书名称</text>
+    </view>
+</view>
+<view class="text-center select">热门书籍</view>
+<view class="container">
+    <block wx:for="{{books}}" wx:key="{{index}}">
+        <v-book book="{{item}}"></v-book>
+    </block>
+</view>

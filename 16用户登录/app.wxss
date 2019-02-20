@@ -1,0 +1,20 @@
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-row-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+view,text{
+    font-size: 24rpx;
+    color:#666666
+}
+.margin-tm20{
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+}

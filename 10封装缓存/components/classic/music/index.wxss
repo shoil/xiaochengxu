@@ -1,0 +1,33 @@
+@import "../movie/index.wxss";
+.m-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.m-banner{
+    width:400rpx;
+    height:400rpx;
+    border-radius: 50%;
+
+}
+.m-icon{
+    top:-100rpx;
+    left:-300rpx;
+    width:46rpx;
+    height:142rpx;
+    position: relative;
+
+}
+.m-play{
+    width:100rpx;
+    height:100rpx;
+    position: relative;
+    top:-230rpx;
+}
+.rotate {
+    animation: rotate 6s linear infinite;
+}
+@keyframes rotate {
+    0% { transform: rotate(0);}
+    100% { transform: rotate(360deg);}
+}

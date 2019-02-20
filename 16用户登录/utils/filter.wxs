@@ -1,0 +1,48 @@
+function filterIndex(index) {
+
+    var result = index < 10 ? "0" + index : index;
+    return result;
+
+
+}
+
+function filterMonth(index) {
+    var months = [
+        '一月', '二月', '三月', '四月', '五月', '六月',
+        '七月', '八月', '九月', '十月', '十一月', '十二月'
+    ]
+    return months[index]
+}
+
+function filterComments(comments) {
+    if (comments) {
+        return comments.slice(0, 3)
+    }
+}
+
+function format(text) {
+    if(text){
+        var reg = getRegExp("\\\\n", "g");
+        return text.replace(reg, "\n&nbsp;&nbsp;");
+    }
+    
+
+}
+function filterType(type){
+    if(type){
+        if(type==100){
+            return "电影"
+        }else if( type==200){
+            return "音乐"
+        }else{
+            return "句子"
+        }
+    }
+}
+module.exports = {
+    filterIndex: filterIndex,
+    filterMonth: filterMonth,
+    filterComments: filterComments,
+    format: format,
+    filterType:filterType
+};

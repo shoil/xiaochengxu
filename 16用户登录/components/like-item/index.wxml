@@ -1,0 +1,11 @@
+<wxs src="../../utils/filter.wxs" module="tools"></wxs>
+<view class="item">
+    <view class="header">
+        <v-tag content="{{tools.filterType(classic.type)}}"></v-tag>
+        <v-like like="{{classic.like_status}}" count="{{classic.fav_nums}}" readOnly="{{true}}"></v-like>
+    </view>
+    <image class="{{classic.type==200?'music':'banner'}}" src="{{classic.image}}"></image>
+    <view class="footer">
+        <text>{{classic.content}}</text>
+    </view>
+</view>

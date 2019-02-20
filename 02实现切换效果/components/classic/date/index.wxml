@@ -1,0 +1,10 @@
+<wxs src="../../../utils/filter.wxs" module="tools"></wxs>
+<view class="container">
+    <view><text>No.</text>
+        <text class="index">{{tools.filterIndex(index)}}</text></view>
+    <view class="line"></view>
+    <view class="date">
+        <text>{{tools.filterMonth(month)}}</text>
+        <text>{{year}}</text>
+    </view>
+</view>

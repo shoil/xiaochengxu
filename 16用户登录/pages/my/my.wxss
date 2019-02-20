@@ -1,0 +1,44 @@
+.bg{
+    height:500rpx;
+    width:100%;
+}
+.logo{
+    width:200rpx;
+    height:200rpx;
+    position: absolute;
+    z-index: 100;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border:1px solid rgb(136, 136, 136);
+    border-radius: 50%;
+    /* display: block; */
+    overflow: hidden;
+}
+.header{
+    position: relative;
+}
+.image-btn{
+    width:200rpx;
+    height:200rpx;
+}
+.container{
+    padding:30rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.like{
+    font-size: 35rpx;
+    font-weight: bold;
+}
+.name{
+    position: absolute;
+    z-index: 300;
+    bottom:100rpx;
+    font-size: 35rpx;
+    font-weight: bold;
+    left:50%;
+    transform: translateX(-50%);
+    color:#333;
+}

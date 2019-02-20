@@ -1,0 +1,16 @@
+.icon{
+    width:32rpx;
+    height:28rpx;
+}
+.like{
+    display: inline-flex;
+    cursor: pointer;
+}
+.like text{
+    font-size: 18rpx;
+    color:#666;
+    position: relative;
+    top:-10px;
+    margin-left: 10px;
+    
+}

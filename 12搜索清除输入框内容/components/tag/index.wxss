@@ -1,0 +1,12 @@
+.tag{
+    margin-right: 20rpx;
+    margin-bottom: 20rpx;
+    display: inline-flex;
+    background: #F7F7F7;
+    padding:10rpx 14rpx;
+    border-radius: 20rpx;
+    
+}
+.tag text{
+    color:#333;
+}

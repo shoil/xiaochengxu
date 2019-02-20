@@ -1,0 +1,11 @@
+<view class="header">
+    <v-date index="{{classic.index}}"></v-date>
+    <v-like like="{{like}}" count="{{count}}" bind:like="onLike"></v-like>
+</view>
+
+<v-movie wx:if="{{classic.type==100}}" title="{{classic.title}}" image="{{classic.image}}" content="{{classic.content}}"></v-movie>
+<v-music wx:if="{{classic.type==200}}" url="{{classic.url}}" image="{{classic.image}}" content="{{classic.content}}"></v-music>
+<v-sentence wx:if="{{classic.type==300}}" image="{{classic.image}}" content="{{classic.content}}"></v-sentence>
+<v-nav class="v-nav"title="{{classic.title}}" isLatest="{{isLatest}}" isFirst="{{isFirst}}"
+bind:previous="onPrev" bind:next="onNext"
+></v-nav>

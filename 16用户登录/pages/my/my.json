@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "v-btn":"/components/image-button/index",
+        "v-item":"/components/like-item/index"
+        
+    }
+}

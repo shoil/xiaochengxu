@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+        "v-date":"/components/classic/date/index",
+        "v-like":"/components/classic/like/index",
+        "v-movie":"/components/classic/movie/index",
+        "v-nav":"/components/classic/nav/index"
+    }
+}

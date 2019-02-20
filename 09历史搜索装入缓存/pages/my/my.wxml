@@ -1,0 +1,5 @@
+<form bindsubmit="confirm">
+    <input type="text" confirm-type="search"
+     name="search" bindconfirm="confirm" />
+    <button formType="submit">提交</button>
+</form>

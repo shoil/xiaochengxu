@@ -1,0 +1,60 @@
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 300;
+    height:100rpx;
+    display: flex;
+    padding-left:20rpx;
+    padding-right:20rpx;
+    align-items: center;
+    border-top: 1rpx solid #eee;
+    border-bottom: 1rpx solid #eee;
+    flex-direction: row;
+    background: #fff;
+}
+.search{
+    width:510rpx;
+    height:70rpx;
+    background: rgb(245, 245, 245);
+    border-radius:30rpx;
+    padding-left: 20rpx;
+    display: flex;
+    align-items: center;
+    padding-right:20rpx;
+}
+.search input{
+    flex:1;
+    margin-left: 20rpx;
+}
+.cancel{
+    height:70rpx;
+    border-radius: 30rpx;
+    line-height: 70rpx;
+    border-color: #888;
+}
+.container{
+    margin-top: 100rpx;
+    padding: 20rpx;
+}
+.title{
+    display: flex;
+    height:90rpx;
+    align-items: center;
+}
+.line{
+    height:30rpx;
+    width:10rpx;
+    background: #333;
+}
+.result{
+    margin-top: 150rpx;
+    padding-left:90rpx;
+    padding-right:90rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+v-book{
+    margin-bottom: 60rpx;
+}

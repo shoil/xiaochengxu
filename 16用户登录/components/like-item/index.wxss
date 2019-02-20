@@ -1,0 +1,33 @@
+.item{
+    width:330rpx;
+    height:470rpx;
+    border:1rpx solid #eee;
+    margin-bottom: 30rpx;
+}
+.header{
+    height:90rpx;
+    display: flex;
+    justify-content: space-between;
+    padding-left:20rpx;
+    padding-right: 20rpx;
+    align-items: center;
+}
+.banner{
+    height:240rpx;
+    width:100%;
+}
+.footer{
+    padding:20rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100rpx;
+}
+.music{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    width:200rpx;
+    height:200rpx;
+}

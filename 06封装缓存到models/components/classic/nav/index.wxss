@@ -1,0 +1,20 @@
+.radio{
+    width:100rpx;
+    height:100rpx;
+}
+.nav{
+    width:600rpx;
+    height:90rpx;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+.title{
+    font-size: 26rpx;
+}
